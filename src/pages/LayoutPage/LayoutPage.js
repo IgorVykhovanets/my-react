@@ -1,13 +1,13 @@
 import React from 'react';
-import {Link, Outlet} from "react-router-dom";
+import {NavLink, Outlet} from "react-router-dom";
 
 
 const LayoutPage = () => {
     return (
         <div>
             <div className={"wrap"}>
-                <Link to={'/users'}>Users</Link>
-                <Link to={'/posts'}>Posts</Link>
+                <NavLink to={'/users'}>Users</NavLink>
+                <NavLink to={'/posts'}>Posts</NavLink>
             </div>
             <div>
                 <Outlet/>
