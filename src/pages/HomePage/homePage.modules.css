@@ -1,0 +1,8 @@
+.listEpisodesBox > div {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://hdwallsource.com/img/2018/2/rick-and-morty-gif-wallpaper-64224-66391-hd-wallpapers.jpg");
+}
+.listEpisodesBox {
+    height: 500px;
+}

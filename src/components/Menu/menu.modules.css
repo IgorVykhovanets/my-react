@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 10px 0 70px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-right: 20px;
+    height: 155px;
+}
+
+.links > a {
+    color: rgba(0, 0, 0, 0.56);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.links > a:hover {
+    color: rgba(0, 217, 255, 0.66);
+}
+
+.pageLinks {
+    width: content-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+}
+
+.pageLinks > a {
+    width: 65px;
+    margin-left: 45px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.pageLinks > a:hover {
+    color: aqua;
+}
