@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.commentsWrap {
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    cursor: pointer;
+}
+.commentsWrap:hover{
+    color: rgba(255, 0, 58, 0.91);
+}{
+
+}

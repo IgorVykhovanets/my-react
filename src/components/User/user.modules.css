@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.user {
+    text-align: center;
+    margin: 25px;
+    font-size: 32px;
+    font-family: 'Abel', sans-serif;
+    cursor: pointer;
+}
+.user:hover{
+    color: rgba(255, 0, 58, 0.91);
+}

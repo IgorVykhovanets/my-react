@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.wrapMenu {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    height: 100px;
+    align-items: center;
+    background: linear-gradient(45deg, #a8edea, #fed6e3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+}
+.wrapMenu > div > a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    color: black;
+}
+.wrapMenu > div > a:hover {
+    text-decoration: underline;
+    color: white;
+}
