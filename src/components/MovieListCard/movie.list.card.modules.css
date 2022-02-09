@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+.wrapListCard > img{
+    height: 220px;
+    width: 200px;
+    border-radius: 30px;
+    transition: 1.5s;
+}
+.wrapListCard > img:hover{
+    height: 300px;
+    transition: 1.5s;
+}
+.wrapListCard{
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 220px;
+    color: gainsboro;
+    margin: 15px 50px;
+    border: 1px solid rgba(180, 180, 180, 0.48);
+    font-size: 11px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 1.5s;
+}
+.wrapListCard:hover{
+    height: 300px;
+    transition: 1.5s;
+    font-size: 12px;
+}
+.wrapListCard >h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    margin: 10px 9px 5px 0;
+}
+.descriptionCard{
+    margin-left: 5px;
+    font-family: 'Rajdhani', sans-serif;
+}
+button{
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: gainsboro;
+}
+button > a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.66);
+}
+button > a:hover{
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 14px;
+}
+button:hover{
+    margin-bottom: 10px;
+    width: 60px;
+    height: 30px;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.16);
+}

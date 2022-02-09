@@ -1,0 +1,41 @@
+import React from 'react';
+
+import './detail.movie.modules.css'
+
+const DetailMovie = ({
+                         movie: {
+                             original_title,
+                             overview,
+                             poster_path,
+                             release_date,
+                             original_language,
+                             homepage,
+                             genres
+                         }
+                     }) => {
+
+    const imgApi = 'https://image.tmdb.org/t/p/original/';
+
+    return (
+        <div className={'DetailMovie'}>
+            <div className={'detailMovieHeader'}>
+                <img src={imgApi + poster_path} alt=""/>
+                <div className={'headerTitle'}>
+                    <h2>{original_title}</h2>
+                    <h4>Language:  {original_language}</h4>
+                </div>
+            </div>
+            <div className={'footerDescription'}>
+                <div className={'footerDate'}>
+                    <span>Date</span>: {release_date}
+                </div>
+                <hr/>
+                <div>Description: {overview}</div>
+                <hr/>
+                <div className={'footerWebSite'}><span>website</span>: {homepage}</div>
+            </div>
+        </div>
+    );
+};
+
+export default DetailMovie;

@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url('https://papers.co/wallpaper/papers.co-oc25-summer-tree-leaf-vacation-green-nature-36-3840x2400-4k-wallpaper.jpg') no-repeat center;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
