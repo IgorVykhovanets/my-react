@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+.wrapHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.menuHeader{
+    display: flex;
+    gap: 300px;
+    margin: 12px 600px 0 0;
+}
+
+.wrapHeader > .menuHeader > a {
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0.32);
+}
+
+.wrapHeader > .menuHeader a:hover {
+    color: rgb(255, 255, 255);
+}
+.wrapHeader > .menuHeader > a.active {
+    color: white;
+}
+.wrapHeader > .nameProject{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.nameProject{
+    position: relative;
+    bottom: 8px;
+}
+.nameProject > a{
+    font-size: 46px;
+    color: rgba(180, 180, 180, 0.15);
+    text-decoration: none;
+    height: 30px;
+    font-family: 'Teko', sans-serif;
+}
+.nameProject > a:hover{
+    color: #dcdcdc;
+}
