@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import MoviesPage from "./pages/MoviesPage/MoviesPage";
 import DetailsMoviePage from "./pages/DetailsMoviePage/DetailsMoviePage";
 import GenresPage from "./pages/GenresPage/GenresPage";
-import MovieGenre from "./pages/MoviesGenre/MovieGenre";
+import MovieGenrePage from "./pages/MoviesGenrePage/MovieGenrePage";
 
 const App = () => {
     return (
@@ -16,7 +16,7 @@ const App = () => {
                     <Route path={'movies'} element={<MoviesPage/>}/>
                     <Route path={'movies/details'} element={<DetailsMoviePage/>}/>
                     <Route path={'genres'} element={<GenresPage/>}/>
-                    <Route path={'genres/:name'} element={<MovieGenre/>}/>
+                    <Route path={'genres/:name'} element={<MovieGenrePage/>}/>
                 </Route>
             </Routes>
         </div>

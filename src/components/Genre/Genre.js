@@ -7,7 +7,7 @@ const Genre = ({genre: {name, id}}) => {
     return (
         <div>
             <div className={'genreBox'}>
-                <Link to={`${name.toLowerCase()}`}>{name}</Link>
+                <Link to={`${name.toLowerCase()}`} state={id}>{name}</Link>
             </div>
         </div>
     );
