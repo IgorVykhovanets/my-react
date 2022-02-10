@@ -18,6 +18,7 @@ const DetailMovie = ({
 
     return (
         <div className={'DetailMovie'}>
+            <div className={'titleDetailMovie'}><h1>M  O  V  I  E</h1></div>
             <div className={'detailMovieHeader'}>
                 <img src={imgApi + poster_path} alt=""/>
                 <div className={'headerTitle'}>
