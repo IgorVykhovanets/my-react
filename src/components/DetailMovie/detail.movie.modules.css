@@ -86,3 +86,11 @@
 .footerWebSite > span{
     color: rgba(139, 0, 0, 0.65);
 }
+.genresDetail{
+    display: flex;
+    gap: 10px;
+}
+.genresDetail > span{
+    color: rgba(139, 0, 0, 0.65);
+    font-family: 'Bebas Neue', cursive;
+}

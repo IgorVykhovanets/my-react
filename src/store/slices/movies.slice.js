@@ -4,12 +4,12 @@ import {moviesService} from "../../services/movies.service";
 
 export const getAllMovies = createAsyncThunk(
     'moviesSlice/getAllMovies',
-    async (_, {rejectedWithValue}) => {
+    async (currentPage, {getState}) => {
         try {
-            const movies = await moviesService.getAll();
+            const movies = await moviesService.getAllCurrentPage(currentPage);
             return movies;
         } catch (e) {
-            return rejectedWithValue(e);
+            console.log(e)
         }
     }
 );
@@ -18,10 +18,10 @@ export const moviesSlice = createSlice({
     name: 'moviesSlice',
     initialState: {
         movies: [],
-        movie: null
+        currentPage: 1
     },
-    reducers:{},
-    extraReducers:{
+    reducers: {},
+    extraReducers: {
         [getAllMovies.pending]: (state, action) => {
             console.log('loading');
         },

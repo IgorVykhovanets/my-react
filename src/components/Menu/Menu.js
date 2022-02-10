@@ -10,6 +10,7 @@ const Menu = () => {
                 <div className={'nameProject'}><NavLink to={'/'}>Project Movies</NavLink></div>
                 <div className={'menuMovies'}>
                     <NavLink to={'movies'}>Movies</NavLink>
+                    <NavLink to={'genres'}>Genres</NavLink>
                 </div>
             </div>
         </div>

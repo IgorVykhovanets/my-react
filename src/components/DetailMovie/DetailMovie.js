@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './detail.movie.modules.css'
+import GenreDetailMovie from "../GenreDetailMovie/GenreDetailMovie";
 
 const DetailMovie = ({
                          movie: {
@@ -15,6 +16,7 @@ const DetailMovie = ({
                      }) => {
 
     const imgApi = 'https://image.tmdb.org/t/p/original/';
+
 
     return (
         <div className={'DetailMovie'}>
@@ -32,6 +34,8 @@ const DetailMovie = ({
                 </div>
                 <hr/>
                 <div>Description: {overview}</div>
+                <hr/>
+                <div className={'genresDetail'}><span>Genres</span>: {genres.map(genre => <GenreDetailMovie key={genre.id} genre={genre}/>)}</div>
                 <hr/>
                 <div className={'footerWebSite'}><span>website</span>: {homepage}</div>
             </div>

@@ -7,17 +7,21 @@ import './movies.modules.css'
 
 const Movies = () => {
 
+
     const dispatch = useDispatch();
+
+    const {movies: {results}, currentPage} = useSelector(state => state['moviesReducer']);
 
     useEffect(() => {
         dispatch(getAllMovies());
     } ,[])
 
-    const {movies: {results}} = useSelector(state => state['moviesReducer']);
 
     return (
-        <div className={'wrapMovies'}>
-            {results && results.map(movie => <MovieListCard key={movie.id} movie={movie}/>)}
+        <div>
+            <div className={'wrapMovies'}>
+                {results && results.map(movie => <MovieListCard key={movie.id} movie={movie}/>)}
+            </div>
         </div>
     );
 };

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.genreBox{
+    margin: 50px 0 0 19.5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid rgba(180, 180, 180, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 2s;
+}
+.genreBox:hover{
+    width: 300px;
+    background: gainsboro;
+    transition: 2s;
+}
+.genreBox > a {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.genreBox > a:hover{
+    font-size: 32px;
+    color: black;
+    transition: 2s;
+    width: 300px;
+    height: 200px;
+}
