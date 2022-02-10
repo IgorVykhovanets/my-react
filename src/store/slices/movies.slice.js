@@ -17,8 +17,7 @@ export const getAllMovies = createAsyncThunk(
 export const moviesSlice = createSlice({
     name: 'moviesSlice',
     initialState: {
-        movies: [],
-        currentPage: 1
+        movies: []
     },
     reducers: {},
     extraReducers: {
