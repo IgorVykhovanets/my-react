@@ -1,0 +1,8 @@
+.searchBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchTitleBlock{
+    display: flex;
+    justify-content: center;
+}

@@ -11,6 +11,7 @@ const Menu = () => {
                 <div className={'menuMovies'}>
                     <NavLink to={'movies'}>Movies</NavLink>
                     <NavLink to={'genres'}>Genres</NavLink>
+                    <NavLink to={'search'}>Search</NavLink>
                 </div>
             </div>
         </div>

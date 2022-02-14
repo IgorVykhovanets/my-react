@@ -43,13 +43,13 @@ const Movies = () => {
     return (
         <div>
             <div className={'wrapMovies'}>
-                    <div className={'titleMovies'}>
-                        <h2   className={'moviesListTitle'}>M O V I E S</h2>
-                        <div className={'btnListElement'}>
-                            <button onClick={() => prevPage()}>p r e v</button>
-                            <button onClick={() => nextPage()}>n e x t</button>
-                        </div>
+                <div className={'titleMovies'}>
+                    <h2 className={'moviesListTitle'}>M O V I E S</h2>
+                    <div className={'btnListElement'}>
+                        <button onClick={() => prevPage()}>p r e v</button>
+                        <button onClick={() => nextPage()}>n e x t</button>
                     </div>
+                </div>
                 <div>
                     {results && results.map(movie => <MovieListCard key={movie.id} movie={movie}/>)}
                 </div>

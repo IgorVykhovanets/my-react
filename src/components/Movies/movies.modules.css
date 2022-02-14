@@ -16,9 +16,9 @@
     height: content-box;
     width: 1540px;
     color: rgba(255, 255, 255, 0.28);
-    margin: 30px 0 0 0;
+    margin: 25px 0 0 0;
     font-family: 'Major Mono Display', monospace;
-    font-size: 36px;
+    font-size: 40px;
     transition: 2s;
 }
 .moviesListTitle:hover{
@@ -37,7 +37,7 @@
     transition: 2s;
 }
 .titleMovies:hover{
-    height: 150px;
+    height: 180px;
     transition: 2s;
 }
 .btnListElement > button{
@@ -49,4 +49,7 @@
     color: white;
     font-size: 16px;
     background: rgba(180, 180, 180, 0.3);
+}
+.searchBlock{
+    margin-top: 15px;
 }
