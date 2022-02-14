@@ -3,9 +3,9 @@ import {genresService} from "../../services/genres.service";
 
 export const getAllGenreMovies = createAsyncThunk(
     'genresMovieSlice/getAllGenreMovies',
-    async ({id, currentPage}, {rejectWithValue}) => {
+    async ({id,currentPage}, {rejectWithValue}) => {
         try {
-            const moviesGenres = genresService.getAllMoviesGenresPage(10, id);
+            const moviesGenres = genresService.getAllMoviesGenresPage(id, currentPage);
             return moviesGenres;
         } catch (e) {
             rejectWithValue(e)

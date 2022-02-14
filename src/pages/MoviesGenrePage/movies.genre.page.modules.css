@@ -1,0 +1,10 @@
+.genresMovieWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapButtonList{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
