@@ -1,13 +1,14 @@
 import React from 'react';
 import {Routes, Route} from "react-router-dom";
 
-import './App.css'
 import HomePage from "./pages/HomePage/HomePage";
 import MoviesPage from "./pages/MoviesPage/MoviesPage";
 import DetailsMoviePage from "./pages/DetailsMoviePage/DetailsMoviePage";
 import GenresPage from "./pages/GenresPage/GenresPage";
 import MoviesGenrePage from "./pages/MoviesGenrePage/MoviesGenrePage";
 import SearchPage from "./pages/SearchPage/SearchPage";
+
+import './App.css'
 
 const App = () => {
     return (

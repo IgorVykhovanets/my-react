@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {useLocation} from "react-router-dom";
+
 import {getAllGenreMovies} from "../../store/slices/genres.movies.slice";
 import MovieListCard from "../../components/MovieListCard/MovieListCard";
 import './movies.genre.page.modules.css'

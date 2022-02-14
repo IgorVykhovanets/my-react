@@ -1,4 +1,5 @@
 import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
+
 import {genresService} from "../../services/genres.service";
 
 export const getAllGenres = createAsyncThunk(

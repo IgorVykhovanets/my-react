@@ -1,8 +1,8 @@
 import React from 'react';
 import {useForm} from "react-hook-form";
+import {useDispatch} from "react-redux";
 
 import './search.form.modules.css'
-import {useDispatch} from "react-redux";
 import {getMovieSearch} from "../../store/slices/search.slice";
 
 const SearchForm = () => {

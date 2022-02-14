@@ -1,4 +1,5 @@
 import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
+
 import {moviesService} from "../../services/movies.service";
 
 export const getMovieSearch = createAsyncThunk(
